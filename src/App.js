@@ -10,7 +10,7 @@ import Home from 'pages/Home';
 function App() {
   return (
     <div className="app">
-      <Router>
+      <Router basename="/covid19-tracker">
         <Switch>
           <Route exact path="/" component={Home} />
           <Redirect to="/" />
