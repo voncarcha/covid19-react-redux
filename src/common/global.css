@@ -1,0 +1,41 @@
+@import '~antd/dist/antd.css';
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #f9f9f9;
+}
+ul {
+  list-style: none !important;
+  padding: 0;
+  margin: 0;
+}
+:focus {
+  outline: none;
+}
+a {
+  text-decoration: none;
+}
+.app {
+  overflow: hidden;
+}
+button {
+  cursor: pointer;
+}
+figure {
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
