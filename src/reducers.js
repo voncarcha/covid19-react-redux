@@ -1,7 +1,9 @@
 import { combineReducers } from '@reduxjs/toolkit';
 
-import covidReducer from 'modules/covid';
+import summaryReducer from 'modules/summary';
+import dayoneReducer from 'modules/dayone';
 
 export default combineReducers({
-  covid: covidReducer,
+  summary: summaryReducer,
+  dayone: dayoneReducer,
 });

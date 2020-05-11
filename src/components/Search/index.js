@@ -6,10 +6,10 @@ import * as S from './styles';
 
 const { Option } = Select;
 
-function Search({ countries, getCountryDayOneAsync }) {
+function Search({ countries, getDayoneAsync }) {
   const dispatch = useDispatch();
 
-  const onChange = (value) => dispatch(getCountryDayOneAsync(value));
+  const onChange = (value) => dispatch(getDayoneAsync(value));
 
   return (
     <S.Wrapper>
