@@ -5,7 +5,7 @@ export const Wrapper = styled.div`
   width: 100%;
   margin: auto;
   position: relative;
-  padding: 0 25px 0 0;
+  padding: 0 25px 60px 0;
 
   .ant-spin {
     position: absolute;

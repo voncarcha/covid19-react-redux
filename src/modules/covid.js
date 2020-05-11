@@ -62,8 +62,7 @@ export function getSummaryAsync() {
 
       dispatch(setLoading(false));
     } catch (err) {
-      console.log(err);
-      // message.error('Error: too many request, please refresh');
+      message.error('Error: too many request, please refresh');
     }
   };
 }
@@ -124,7 +123,6 @@ export function getCountryDayOneAsync(country) {
         dispatch(setCountryLoading(false));
 
       } catch (err) {
-        // message.error('Error: too many request, please refresh');
         console.log(err);
       }
     }
